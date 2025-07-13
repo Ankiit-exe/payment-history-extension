@@ -1,0 +1,16 @@
+{
+  "name": "Stipe Payment History",
+  "description": "This app displays the payment history of contacts in HubSpot.",
+  "uid": "stripe-payment-history",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write", "crm.objects.custom.read"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/payment-history.json"
+        }
+      ]
+    }
+  }
+}

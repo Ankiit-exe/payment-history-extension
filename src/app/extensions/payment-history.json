@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Payment History",
+    "location": "crm.record.sidebar",
+    "uid": "payment-history-card",
+    "module": {
+      "file": "PaymentHistoryCard.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}

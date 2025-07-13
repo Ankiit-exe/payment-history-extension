@@ -1,0 +1,8 @@
+{
+  "appFunctions": {
+    "PaymentsHistory": {
+      "file": "./payment-history.js",
+      "secrets": []
+    }
+  }
+}
